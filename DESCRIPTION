@@ -1,0 +1,13 @@
+Package: montyhall
+Title: Demonstrate and Understand the Monty Hall Problem
+Version: 0.0.0.9000
+Authors@R: 
+    person("Holly", "Yee", , "hollyyee@asu.edu", role = c("aut", "cre"))
+Description: This package provides all of the functions necessary to simulate the monty hall problem in R. The package includes the functions of create_game(), select_door(), open_goat_door(), change_door(), determine_winner(), play_games(), and play_n_games(). The first five functions listed provide the basis of creating one simulation of the monty hall game. The final two functions allow for a cleaner, more condensed understanding of the monty hall problem. Play_game creates a clean table providing the results of each strategy. On the other hand, play_n_games allows for running the monty hall problem multiple times and determining the probability of winning or losing for each strategy (staying or switching). Also provided are roxygen comments for helpful context on each of the functions, including what they are called, what they do, additional details on how to use them, examples on how to use them, what their arguments are and how to use them, what the function looks like and more.
+Depends: 
+   dplyr
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
